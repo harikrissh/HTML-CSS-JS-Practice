@@ -13,7 +13,70 @@
   				background-size: cover;
 			}
 		</style>
-		<header align="center" style="color: lightblue;font-family: sans-serif;"><h2>WELCOME TO BREAD BASKET</h2></header>
+		<header align="center">
+			<svg viewBox="0 0 960 300">
+				<symbol id="s-text">
+					<text text-anchor="middle" x="50%" y="50%">Bread Basket</text>
+				</symbol>
+				<g class = "g-ants">
+					<use xlink:href="#s-text" class="text-copy"></use>
+					<use xlink:href="#s-text" class="text-copy"></use>
+					<use xlink:href="#s-text" class="text-copy"></use>
+					<use xlink:href="#s-text" class="text-copy"></use>
+					<use xlink:href="#s-text" class="text-copy"></use>
+				</g>
+			</svg>
+			<style type="text/css">
+				@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+
+svg {
+    display: block;
+    font: 10.5em 'Montserrat';
+    width: 900px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+	stroke: #4D163D;
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	stroke: #840037;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: #BD0034;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: #BD0034;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #FDB731;
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}
+			</style>
+		</header>
 		<link rel="stylesheet" type="text/css" href="C:\Users\Dell\Desktop\CognizantEats1.html">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 		<nav>
@@ -32,12 +95,12 @@
 					</form>
 				</div>
 				<div style="display: inline-block; margin: 25px 50px 75px 100px">
-					<br><br><br><br><br><h3>Login</h3>
+					<br><br><h3>Login</h3>
 					<form action="C:\Users\Dell\Desktop\CognizantEats1.html" id="form1">
-						<input type="Email" name="Email" size="15" placeholder="Username" required><br><br>
+						<input type="Email" name="Email" size="15" placeholder="Username" required autofocus><br><br>
 						<input type="Password" name="Password" size="15" placeholder="Password" required><br><br>
 						<button class="btn btn-primary btn-primary" type="submit">Go</button>
-					</form>
+					</form>	
 				</div>				
 				<br><br><br><br><br><br>
 				<aside style="color: brown;font-family: cursive;font-size: 15">"Don't waste food!"</aside>
@@ -46,8 +109,8 @@
 		<footer style="color: darkgreen; font-family: cursive; text-align: center">
 			<br><br>
 			Contact: 1800-525-1234 for any queries.<br>
-			&#9400; 2020 All rights reserved.
+			&#9400; 2019 - 2020.
 		</footer>
-		<iframe  width="150" height="100" src="https://www.youtube.com/embed/zcikLQZI5wQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media;  gyroscope; picture-in-picture" style="float: middle;" allowfullscreen></iframe>
+		<iframe  width="320" height="240" src="https://www.youtube.com/embed/zcikLQZI5wQ/?autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media;  gyroscope; picture-in-picture" style="float: middle;" allowfullscreen ></iframe>
 	</body>
 </html>
