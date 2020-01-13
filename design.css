@@ -1,0 +1,26 @@
+@keyframes anim {
+  			0%   {background-color: red;}
+  			25%  {background-color: yellow;}
+  			50%  {background-color: blue;}
+  			100% {background-color: green;}
+		}
+		p.center
+		{
+			text-align: center;
+			color: rgb(0, 0, 103);
+			font-size: 50px;
+		  	border-style: double;
+		  	border-width: 10px 10px;
+		  	border-radius: 10px;
+		  	border-color: green; 
+		  	font-variant: small-caps;
+		  	padding: 10px 10px 10px 10px;
+		  	margin: 0 auto;
+		  	display: table;
+		  	width: auto;
+		  	float: right;
+		  	opacity: 0.5;
+		  	
+		  	animation-name: anim; 
+		  	animation-duration: 1s;
+		}

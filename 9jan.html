@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<img id="logo" src="cat.webp"> Meoowww!<br><br>
+	<style type="text/css">
+		/*ul li::before{
+			content: "•";
+			color: blue;
+  			font-weight: bold;
+  			display: inline-block; 
+  			width: 1em;
+  			margin-left: -2.5em;
+		}*/
+
+		#logo{
+			float: left;
+			width:40px;
+			height: 40px;
+		}
+		#pgl{
+			white-space: pre-line;
+			color: red;
+			font-family: monospace;
+			word-wrap: break-word;
+			opacity: 0.5;
+		  	
+		  	animation-name: anim; 
+		  	animation-duration: 5s;
+		}
+		img{
+			float: right;
+			width: 400px;
+			height: 400px;
+		}
+		@keyframes anim {
+  			0%   {background-color: cyan;}
+  			50%  {background-color: black;}
+  			100%  {background-color: orange;}
+		}
+	</style>
+</head>
+<body>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<button class="btn btn-success" onclick="myFunction()">Pongal</button>
+	
+	<button class="btn btn-danger" onclick="myFunction1()">Clear</button>
+	<p id="pgl"></p>
+	<pre>
+		happy
+
+
+
+		morning
+	</pre>
+	<font color="blue">
+		<ul>
+  			<li>html</li>
+  			<li>css</li>
+  			<li>js</li>
+		</ul>
+	</font>
+
+	<script>
+function myFunction() {
+  document.getElementById("pgl").innerHTML = "Pongal Festival is celebrated for four days. The four days of the Pongal festival are known as Bhogi, Surya, Mattu and Kaanum."
+}
+function myFunction1() {
+  document.getElementById("pgl").innerHTML = ""
+}
+</script>
+
+</body>
+</html>
